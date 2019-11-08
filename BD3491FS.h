@@ -25,8 +25,8 @@ class BD3491FS
     void setIn_gain(int in_gain); // int 0...7 === 0...20 dB    
     void setVol_1(int vol_1); // int 0...87 === 0...-87 dB
     void setVol_2(int vol_2); // int 0...87 === 0...-87 dB
-    void setBass(int bass); // int -7...0...+7 === -7...+7 dB
-    void setTreb(int treb); // int -7...0...+7 === -7...+7 dB
+    void setBass(int bass); // int -7...0...+7 === -14...+14 dB
+    void setTreb(int treb); // int -7...0...+7 === -14...+14 dB
     void setSurround(int sur); // int 0...3 === OFF LOW MIDDLE HIGH
 	
   private:
