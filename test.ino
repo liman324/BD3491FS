@@ -14,7 +14,7 @@ void audio(){
     bd.setIn_gain(0); // int 0...7 === 0...20 dB    
     bd.setVol_1(0); // int 0...87 === 0...-87 dB
     bd.setVol_2(0); // int 0...87 === 0...-87 dB
-    bd.setBass(0); // int -7...0...+7 === -7...+7 dB
-    bd.setTreb(0); // int -7...0...+7 === -7...+7 dB
+    bd.setBass(0); // int -7...0...+7 === -14...+14 dB
+    bd.setTreb(0); // int -7...0...+7 === -14...+14 dB
     bd.setSurround(1); // int 0...3 === OFF LOW MIDDLE HIGH
   }
